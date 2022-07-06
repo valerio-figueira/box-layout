@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "main-column side-column"
+    "downbar downbar"
+    "footer footer";
+    
+    grid-template-columns: 2fr 300px;
+
+    background-color: bisque;
+
+    margin: 0 auto;
+    width: 70vw;
+}
+
+header{
+    grid-area: header;
+}
+.main-column{
+    grid-area: main-column;
+}
+.side-column{
+    grid-area: side-column;
+}
+.downbar{
+    grid-area: downbar;
+}
+footer{
+    grid-area: footer;
+}
+
+
+header, .main-column, .side-column, .downbar, footer{
+    background-color: honeydew;
+    margin: 10px;
+    padding: 20px;
+    outline: 1px solid;
+    box-shadow: 0px 0px 6px 2px #00000077;
+}
+
+h1{
+    background-color: brown;
+    color: azure;
+    padding: 2px 6px;
+    margin: 5px 0 5px;
+    border-radius: 4px;
+}
