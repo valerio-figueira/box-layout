@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body{
+    width: 700px;
+    margin: auto;
+
+    color: azure;
+    text-align: center;
+}
+
+header, main, footer{
+    background-color: #383838;
+    padding: 20px;
+    border: 1px solid;
+}
+
+
+fieldset{
+    width: 500px;
+    margin: auto;
+    padding: 25px 5px;
+}
+label{
+    display: flex;
+    justify-content: end;
+    margin: 10px 70px 10px 0;
+}
+input{
+    margin: 0 20px;
+}
+
+#nome, #idade, #telefone{
+    width: 200px;
+}
+
+.box{
+    padding: 20px;
+    margin: 20px 73px;
+    border: 1px solid;
+}
